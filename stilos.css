@@ -1,0 +1,205 @@
+*{
+    border: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedortotal{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+header{
+    display: flex;
+    background-image:url(/img/CENTRO\ VETERINARIO\ \(1\).png);
+    background-size: 100%;
+    width: 1300px;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+aside{
+    display: flex;
+    background-color:#204c4c;
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1302px;
+    height: 80px;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    
+}
+li{
+    display: flex;
+    padding-right: 80px;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid white;
+    height: 40px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li>:hover{
+    color: black;
+}
+main{
+    display: flex;
+}
+.contendorint{
+    display: flex;
+    flex: 1;
+    gap: 30px;
+    flex-direction: column;
+}
+.contenedorext{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.one{
+    width: 700px;
+    background-color: #fff4bcda;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left: 20px;
+}
+.division{
+    display: flex;
+    gap: 10px;
+    padding-right: 20px;
+}
+.two{
+    width: 700px;
+    background-color: #fff4bcda;
+    height: 270px;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+    padding-left: 20px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+}
+.solit{
+    display: flex;
+    background-color: #102c24;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    flex-direction: column;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    align-items: center;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    background-color: #506c6c;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+
+}
+.mascota{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    width: 500px;
+}
+.edad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 500px;
+}
+.raza{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 500px;
+}
+.fecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 500px;
+}
+.hora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 500px;
+}
+.amo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 500px;
+}
+#input{
+    width: 200px;
+    height: 30px;
+}
+h5{
+    color: white;
+}
+#but{
+    display: flex;
+    justify-content: center;
+}
+.chek>button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 20px;
+}
+#i{
+    color: blue;
+}
+.cn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#204c4c;
+    color: white;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
